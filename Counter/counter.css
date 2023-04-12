@@ -1,0 +1,82 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: teal;
+}
+
+h1{
+	color: rgb(189, 180, 131);
+}
+
+.container{
+	min-height: 300px;
+	min-width: 500px;
+	padding: 1px;
+	border: 2px solid ;
+	border-color: black;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: rgb(16, 53, 88);
+}
+
+.number{
+	padding: 20px;
+	margin: 30px;
+	margin-bottom: 60px;
+	border: 1px dotted;
+	border-color: rgb(189, 180, 131);
+	background: rgb(6, 43, 78);
+	color: rgb(189, 180, 131);
+}
+
+
+.btn{
+	width: 150px;
+	height: 50px;
+	margin: 5px;
+	border: 1px solid;
+	border-color: black;
+	border-radius: 8%;
+	transition-duration: 0.25s;
+}
+
+.btn-add{
+	background: rgb(48, 105, 81);
+}
+
+.btn-subtract{
+	background: rgb(96, 3, 26);
+
+}
+
+.btn:hover{
+	cursor: pointer;
+	border-color: rgb(189, 180, 131);
+	color: rgb(189, 180, 131);
+	border-radius: 0%;
+}
+
+.btn-add:hover{
+	background: rgb(18, 75, 51);
+}
+
+.btn-subtract:hover{
+	background: rgb(86, 3, 16);
+
+}
+
+.number:hover{
+	cursor: none;
+	background: rgb(16, 53, 88);
+}
+
+.btn-add:active{
+	background: rgb(28, 85, 61);
+}
+
+.btn-subtract:active{
+	background: rgb(96, 13, 26);
+
+}
